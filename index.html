@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    /> -->
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="ntf-container">
+      <!-- Header section -->
+      <div class="ntf__header">
+        <h2 class="header__heading">
+          Notifications <span id="ntf-count" class="header__count"></span>
+        </h2>
+        <span id="mark-all" class="header__markAll">Mark all as read</span>
+      </div>
+      <!-- Notifications Details -->
+      <main class="ntfs">
+        <div class="ntf__card unread-background">
+          <div class="card__body">
+            <img
+              src="./images/avatar-mark-webber.webp"
+              alt="Mark webp photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Mark webp </strong>
+                <span class="author-react">reacted to your recent post</span>
+                <strong class="user-post"> My first tournament today! </strong>
+              </span>
+              <p class="activity__date">1m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ntf__card unread-background">
+          <div class="card__body">
+            <img
+              src="./images/avatar-angela-gray.webp"
+              alt="Angela Gray photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Angela Gray </strong>
+                <span class="author-react"> followed you </span>
+              </span>
+              <p class="activity__date">5m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ntf__card unread-background">
+          <div class="card__body">
+            <img
+              src="./images/avatar-jacob-thompson.webp"
+              alt="Jacob thompson photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Jacop Thompson </strong>
+                <span class="author-react"> has joined your group </span>
+                <strong class="user-group"> Chess Club </strong>
+              </span>
+              <p class="activity__date">1day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ntf__card">
+          <div class="card__body">
+            <img
+              src="./images/avatar-rizky-hasanuddin.webp"
+              alt="Rizky Hasanudin photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Rizky Hasanudin </strong>
+                <span class="author-react"> sent you a private message </span>
+              </span>
+              <p class="activity__date">5days ago</p>
+            </div>
+          </div>
+          <div class="ntf__message-box">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ntf__card">
+          <div class="card__body">
+            <img
+              src="./images/avatar-kimberly-smith.webp"
+              alt="Rizky Hasanudin photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Kimberly Smith </strong>
+                <span class="author-react"> commented on your picture </span>
+              </span>
+              <p class="activity__date">1week ago</p>
+            </div>
+            <img
+              src="./images/image-chess.webp"
+              alt=""
+              class="card__user-img"
+            />
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ntf__card">
+          <div class="card__body">
+            <img
+              src="./images/avatar-nathan-peterson.webp"
+              alt="Nathan Petrson photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Nathan Peterson </strong>
+                <span class="author-react"> reacted to your recent post </span>
+                <strong class="user-post"
+                  >5 end-game strategies increase your win rate</strong
+                >
+              </span>
+              <p class="activity__date">2weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ntf__card">
+          <div class="card__body">
+            <img
+              src="./images/avatar-anna-kim.webp"
+              alt="Anna Kim photo"
+              class="card__img"
+            />
+            <div class="card__activity">
+              <span>
+                <strong class="author-name"> Anna Kim </strong>
+                <span class="author-react"> left the group </span>
+                <strong class="user-group">Chess Club</strong>
+              </span>
+              <p class="activity__date">2weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
